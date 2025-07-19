@@ -160,3 +160,26 @@ main{
   text-align: center;
   margin-top:50px;
 }
+/* footer style */
+footer{
+  padding:130px 230px;
+  margin-top:50px;
+  display:flex;
+  gap:100px;
+}
+.footer-collum{
+  width:50%;
+}
+footer input[type="text"],footer input[type="email"],footer input[type="textarea"]{
+  height:50px;
+  border-radius:5px;
+  background-color:white;
+  display:block;
+  width:50%;
+  padding:5px 10px;
+  margin-bottom: 25px;
+  border:none;
+}
+footer input[type="submit"]{
+  display:block;
+}
